@@ -1,4 +1,4 @@
 Django==4.0.3
 Pillow
 cryptography
-tkinter
+pip == 22.3.1
