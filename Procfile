@@ -1,1 +1,0 @@
-web: gunicorn 'web-production-0e66.up.railway.app.wsgi'
