@@ -1,1 +1,1 @@
-web: gunicorn 'Django-project.wsgi'
+web: gunicorn 'web-production-0e66.up.railway.app.wsgi'
