@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     'srmsApp.apps.srmsAppConfig',
-    'django.contrib.staticfiles',
+    # 'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
 ]
 
