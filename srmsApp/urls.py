@@ -15,6 +15,7 @@ context={
     'has_sidebar':False,
 }
 urlpatterns = [
+    path('', views.home,name="home-page"),
     path('redirect-admin', RedirectView.as_view(url="/admin"),name="redirect-admin"),
     path('login',auth_views.LoginView.as_view(template_name="login.html",redirect_authenticated_user = True,extra_context = context),name='login'),
     path('logout',views.logoutuser,name='logout'),
@@ -22,7 +23,6 @@ urlpatterns = [
     path('profile', views.profile, name="profile-page"),
     path('update_profile', views.update_profile, name="update-profile"),
     path('update_password', views.update_password, name="update-password"),
-    path('', views.home,name="home-page"),
     path('class_mgt', views.class_mgt,name="class-page"),
     path('manage_class', views.manage_class,name="manage-class"),
     path('manage_class/<int:pk>', views.manage_class,name="manage-class-pk"),
