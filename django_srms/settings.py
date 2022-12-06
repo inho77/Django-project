@@ -143,4 +143,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/login'
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-6a58.up.railway.app/']
+# CSRF_TRUSTED_ORIGINS = ['web-production-6a58.up.railway.app/']
